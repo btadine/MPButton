@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'MPButton_Example' do
-  pod 'MPButton', :path => '../'
+  pod 'MPButton'
 
   target 'MPButton_Tests' do
     inherit! :search_paths
