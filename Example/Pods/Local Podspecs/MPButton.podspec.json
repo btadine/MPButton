@@ -1,0 +1,22 @@
+{
+  "name": "MPButton",
+  "version": "0.1.0",
+  "summary": "A short description of MPButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/btadine/MPButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "btadine": "marcos@glovoapp.com"
+  },
+  "source": {
+    "git": "https://github.com/btadine/MPButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MPButton/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MPButton (0.1.0)
+
+DEPENDENCIES:
+  - MPButton (from `../`)
+
+EXTERNAL SOURCES:
+  MPButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MPButton: 5fb28a67db8423d34ce78738840ccf6ebfe91a36
+
+PODFILE CHECKSUM: 3b3950a65102acbcd8f0890681e1d20a865a1583
+
+COCOAPODS: 1.2.0
