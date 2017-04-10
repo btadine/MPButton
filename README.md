@@ -10,7 +10,7 @@ Adding new elements without breaking existing layout?
 Just make the touchable area bigger?
 If you're smiling, probably you did!
 
-MPButton decorates any view that you provide adding UIControlEvents (ie. touchUpInside) and custom hit box, so you can focus just in the UI.
+MPButton decorates any view that you provide adding UIControlEvents (ie. touchUpInside) and custom hit box, so you can just focus in the UI.
 
 ## Example
 
