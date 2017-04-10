@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/MPButton.svg?style=flat)](http://cocoapods.org/pods/MPButton)
 [![Platform](https://img.shields.io/cocoapods/p/MPButton.svg?style=flat)](http://cocoapods.org/pods/MPButton)
 
+Have you ever tried to edit the constraints of the elements inside a UIButton? 
+Adding new elements without breaking existing layout?
+Just make the touchable area bigger?
+If you're smiling, probably you did!
+
+MPButton decorates any view that you provide adding UIControlEvents (ie. touchUpInside) and custom hit box, so you can focus just in the UI.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
