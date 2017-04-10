@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     injectedView.layer.cornerRadius = 15
     
     let label = UILabel()
-    label.text = "Button with complicated layout"
+    label.text = "Button with complex layout"
     
     let square = UIView()
     square.backgroundColor = .blue
