@@ -13,9 +13,13 @@ Just make the touchable area bigger?
 
 As easy as this: 
 ```swift
-let button = MPButton(decoratedView: yourView, hitbox: CGSize(width: 250, height: 90))
+let button = MPButton(decoratedView: MyView(), hitbox: CGSize(width: 250, height: 90))
 button.addTarget(self, action: #selector(self.doSomething), for: .touchUpInside)
+
+button.decoratedView.myViewLabel.text = "No need to cast"
 ```
+
+
 
 ## Example
 
