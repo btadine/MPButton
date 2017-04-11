@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     decoratedView: UIView)
     -> MPButton<UIView>
   {
-    let mpButton = MPButton(decoratedView: decoratedView)
+    let mpButton = MPButton(decoratedView: decoratedView, hitbox: CGSize(width: 300, height: 80))
     self.view.addSubview(mpButton)
     
     mpButton.translatesAutoresizingMaskIntoConstraints = false
