@@ -12,10 +12,10 @@ Just make the touchable area bigger?
 `MPButton` is a lightweight class that decorates any `UIView` adding `UIControlEvents` (ie. touchUpInside) and customizable touching area. This way, you only need to care about the UI.
 
 As easy as this: 
-``swift
+```swift
 let button = MPButton(decoratedView: yourView, hitbox: CGSize(width: 250, height: 90))
 button.addTarget(self, action: #selector(self.doSomething), for: .touchUpInside)
-``
+```
 
 ## Example
 
