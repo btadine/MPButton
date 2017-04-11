@@ -8,9 +8,14 @@
 Have you ever tried to edit the constraints of the elements inside a UIButton? 
 Adding new elements without breaking existing layout?
 Just make the touchable area bigger?
-If you're smiling, probably you did!
 
-`MPButton` decorates any `UIView` that you provide adding `UIControlEvents` (ie. touchUpInside) and custom hit box, so you can just focus in the UI.
+`MPButton` is a lightweight class that decorates any `UIView` adding `UIControlEvents` (ie. touchUpInside) and customizable touching area. This way, you only need to care about the UI.
+
+As easy as this: 
+```swift
+let button = MPButton(decoratedView: yourView, hitbox: CGSize(width: 250, height: 90))
+button.addTarget(self, action: #selector(self.doSomething), for: .touchUpInside)
+``
 
 ## Example
 
