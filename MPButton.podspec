@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MPButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A generic UIControl decorator that provides an easy way to deal with complex layout inside buttons.'
 
   s.description      = <<-DESC
